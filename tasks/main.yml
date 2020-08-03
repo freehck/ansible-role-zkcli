@@ -1,0 +1,9 @@
+---
+
+- name: install zkcli v{{ zkcli_version }}
+  unarchive:
+    src: "{{ zkcli_archive }}"
+    dest: "{{ zkcli_install_dir }}"
+    remote_src: true
+    extra_opts:
+      - --strip-components=1

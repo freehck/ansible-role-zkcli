@@ -1,0 +1,4 @@
+---
+zkcli_version: "0.3.0"
+zkcli_archive: "https://github.com/let-us-go/zkcli/releases/download/v{{ zkcli_version }}/zkcli-{{ zkcli_version }}-linux-amd64.tar.gz"
+zkcli_install_dir: "/opt/zkcli/bin"
